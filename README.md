@@ -1,9 +1,7 @@
-<p align="left" width="100%">
-  <img style="width:30%;align:left" src="https://github.com/eth-ait/HCI-fall-2018-project-page/blob/master/img/logo-ait.png">             
-</p>
+![AIT Logo](img/logo-ait.png)
 
-# [Project name], Group [Group number]
-#### Student 1, Student 2, Student 3, Student 4, Student 5
+# Programmable Networks, Group 2
+#### Miro Haller, Roger Baumgartner, Tim Matter, Jules Bachmann and Jan Urech
 
 ## Project description
     TODO
