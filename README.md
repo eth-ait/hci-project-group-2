@@ -24,7 +24,12 @@ Then list your initial ideas (min. 3) with a brief description.
 Upload the PPT presentation that you discussed with the stakeholder to the "deliverables" folder and include the link here. 
 
 Optional: in this part you can document the needfinding, ideation, and prototyping process (e.g. describe personas, show affinity clusters, etc. ) (Weeks 3-6)
-    
+
+### Personas
+
+[David Fischer, Junior Network Engineer](resources/personas/David%20Fischer.md)  
+[Hans-Peter Dullinger, Senior Network Engineer](resources/personas/Hans-Peter%20Dullinger.md)
+
 ## Evaluation
     TODO
 Describe your approach for evaluating your low-fi prototypes, present your results and your conclusion. 
