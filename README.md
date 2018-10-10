@@ -4,12 +4,18 @@
 #### Miro Haller, Roger Baumgartner, Tim Matter, Jules Bachmann and Jan Urech
 
 ## Project description
-    TODO
-Add a description of your project, based on your discussion with the stakeholder. Minimum answer the following questions: 
-- What is the problem the company/user faces?
-- What are the goals of the project?
+### Problems the user faces
+- Non-intuitive interaction with topology, low-level router configuration needed
+- Manual changes have hard to predict outcomes
+- Error-prone maintenance and update process
+- No way to directly specify high-level requirements
 
-Optional: in this part you can include notes from your first meeting with the stakeholder (Week 2-3)
+### Goals of our project
+Given a high-level network property and a network topology, figure out how to visualize to the user how the property affects the network configuration.
+
+### Notes from first meeting
+[Preparation Notes](resources/first_meeting/preparation.docx)  
+[Debrief Notes](resources/first_meeting/debrief.docx)
 
 ## Ideas
     TODO
