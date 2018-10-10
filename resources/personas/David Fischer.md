@@ -10,7 +10,7 @@ ETH graduate, 26 years old, works at Swisscom as a Junior Network Operator
 
 ### Goal
 
-Improve process to achieve network stability, uptime, security, speed, performance by reducing the impact of human error and increasing the explainability of network topology and properties.
+Improve process to achieve network stability, uptime, security, speed, and performance by reducing the impact of human error and increasing the explainability of network topology and properties.
 
 ### Pain Points
 - Inheriting old burdens

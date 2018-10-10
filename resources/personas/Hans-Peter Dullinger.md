@@ -10,11 +10,11 @@
 
 ### Goal
 
-Achieve network stability, uptime, security, speed, performance.
+Achieve network stability, uptime, security, speed, and performance.
 
 He wants a running network and little additional effort if possible. Wants to be able to control the network with little work.
 
 ### Pain Points
 - Stress
-- Job security
+- Worries about job security
 - Annoyed by big changes in the network (and the required work)
