@@ -25,6 +25,7 @@
  - Alternative you could also make nodes with many edges larger, and like page rank give nodes with many edges more weight i.e. an edge from such a node gives you more importance (size) than from a node with few connections.
 
 ## Split screen: Controls + Graph
+![](../../img/ideation/splitscreen.jpg)
 - The left part of the screen (maybe a third) is filled with general controls and the requirements, on the right side is the network graph
 - You can select a requirement on the left, then the graph on the right side highlights the nodes that are affected by that requirement. E.g. for N-connectivity from A to B it shows all N paths and fades out the others.
 - You can also select nodes on the right and then it shows you informations about that node on the left (general infos, requirements that affect it, ...)
