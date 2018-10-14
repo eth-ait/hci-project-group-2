@@ -1,5 +1,6 @@
 # Ideas
-## Facebook for network graphs
+## Social media for network graphs
+![](../../img/ideation/social_media.jpg)
 - There is a profile for each network node (AS, router)
  - General information (IP, hostname, router type, ...) is listed in the profile
  - Profile pictures are symbols for different router types, maybe also sizes (e.g. star for AS, larger ASes have more points, maybe with a logarithmic scale)
@@ -11,6 +12,7 @@
  - There is a site for each groups, showing its members and general information about that requirement
 
 ## Full screen network graph
+![](../../img/ideation/full_screen.jpg)
 - The graph spans over the full screen
 - You can zoom in
  - E.g. ASes are bundled into a symbol, if you select it, you see the internal nodes and network
