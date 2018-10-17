@@ -1,4 +1,5 @@
 # Hans-Peter Dullinger
+![](../../img/personas/hans-peter_dullinger.jpg)
 
 52 years old, Stanford graduate, works at AT&T as a Senior Network Operator
 
