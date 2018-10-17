@@ -1,5 +1,6 @@
 # David Fischer
-![](../../img/personas/david_fischer.jpg)
+<img src="../../img/personas/david_fischer.jpg" alt="Portrait of David Fischer" width="20%">
+
 ETH graduate, 26 years old, works at Swisscom as a Junior Network Operator
 
 ### Key characteristics
