@@ -1,4 +1,19 @@
 # Ideas
+
+## Split screen: Controls + Graph
+![](../../img/ideation/splitscreen.jpg)
+- The left part of the screen (maybe a third) is filled with general controls and the requirements, on the right side is the network graph
+- You can select nodes on the right and then it shows you informations about that node on the left (general infos, requirements that affect it, ...) (see picture)
+- You can select a requirement on the left, then the graph on the right side highlights the nodes that are affected by that requirement.
+    - E.g. for N-connectivity from A to B it shows all N paths and fades out the others
+- You have tabs for different requirements / functionality in the left panel
+    - E.g. inspect, requirements and search
+- Graph can be colour coded to show e.g. preferences of paths
+- Photoshop-controls:
+    - You have regions defined in the graph for scalability (e.g. AS complexity hidden if not needed)
+    - You have tools like the lasso, with which you can select multiple nodes and define a new region
+    - You can zoom in and out
+
 ## Social media for network graphs
 ![](../../img/ideation/social_media.jpg)
 - There is a profile for each network node (AS, router)
@@ -23,20 +38,6 @@
 - Page rank like scaling
     - E.g. to show distance: When you select a node, that node gets larger. Its neighbors are also larger, but a bit smaller. Nodes that are connected over two edges are again a bit smaller and so on.
     - Alternative you could also make nodes with many edges larger, and like page rank give nodes with many edges more weight i.e. an edge from such a node gives you more importance (size) than from a node with few connections.
-
-## Split screen: Controls + Graph
-![](../../img/ideation/splitscreen.jpg)
-- The left part of the screen (maybe a third) is filled with general controls and the requirements, on the right side is the network graph
-- You can select nodes on the right and then it shows you informations about that node on the left (general infos, requirements that affect it, ...) (see picture)
-- You can select a requirement on the left, then the graph on the right side highlights the nodes that are affected by that requirement.
-    - E.g. for N-connectivity from A to B it shows all N paths and fades out the others
-- You have tabs for different requirements / functionality in the left panel
-    - E.g. inspect, requirements and search
-- Graph can be colour coded to show e.g. preferences of paths
-- Photoshop-controls:
-    - You have regions defined in the graph for scalability (e.g. AS complexity hidden if not needed)
-    - You have tools like the lasso, with which you can select multiple nodes and define a new region
-    - You can zoom in and out
 
 ## General
 All ideas need:
