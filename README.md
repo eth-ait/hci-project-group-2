@@ -24,6 +24,9 @@ Given a high-level network property and a network topology, figure out how to vi
 [David Fischer, Junior Network Engineer](resources/personas/David%20Fischer.md)  
 [Hans-Peter Dullinger, Senior Network Engineer](resources/personas/Hans-Peter%20Dullinger.md)
 
+### High-level properties of the network
+We were asked by our stakeholder to derive the properties which we should later visualize. [Here](resources/ideation/requirements.md) is a list of what we found in various papers and projects.
+
 ### 50 Thoughts
 
 [Image of our cards](img/ideation/50_thoughts.jpg)
@@ -34,10 +37,11 @@ Given a high-level network property and a network topology, figure out how to vi
 [Social media for network graphs](resources/ideation/3_ideas.md#social-media-for-network-graphs)  
 [Full screen network graph](resources/ideation/3_ideas.md#full-screen-network-graph)
 
-    TODO
+### Deliverables
+[Programmable networks: 3 ideas PPT presentation](Deliverables/Idea_Presentation.pptx) [(pdf)](Deliverables/Idea_Presentation.pdf)
 
+    TODO
 Start with the key requirements/needs of the users / the company
-Upload the PPT presentation that you discussed with the stakeholder to the "deliverables" folder and include the link here. 
 Optional: in this part you can document the needfinding, ideation, and prototyping process (e.g. describe personas, show affinity clusters, etc. ) (Weeks 3-6)
 
 ## Evaluation
