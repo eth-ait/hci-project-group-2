@@ -16,11 +16,11 @@ We use usability testing because we have specific tasks and are interested in ho
 
 ## Protocol
 
+    TODO
+
 Basic idea: 
 - Conduct questionary with a clickable mockup with people from the network group of Laurent.
 - Do interview / Wizard-of-Oz style tests with networks operators.
-
-    TODO
 
 1. Greeting 
 2. Basic overview
