@@ -1,0 +1,40 @@
+# ETH NetOps
+
+- Display subnets instead of routers
+    - E.g. traffic from firewall makes no sense
+    - Networks on VRF not on machines
+    - Routing logically separated, normally you have an extra level
+- From: Select interface, then which address when clicking on node
+- Automation? They configure 6525 lines by hand, complex
+- Important for them: 
+    - VLAN, IPs and subnets, forwarding
+- Effect of filter functions unclear, asked question why is security now faded out (reason was that he filtered)
+- Security: Different understandig
+    - How could you achieve that traffic doesn't go through a node?
+    - Can only decide for next hop
+    - Also for whole configuration, he doesn't know any system that does this
+    - Security for them: Ports, which ports are open, tcp/udp
+- Load balancing: Not working on lower levels
+    - Doesn't exist on lower levels, either you have only one connection or you do equal-cost for all routes
+    - Don't do it in live networks
+    - Load balancers actually work on layer 7, not on lower levels
+- You have to route dynamically, static routing doesn't work together with redundancy
+- Bulldozer tool gets nobody
+- Is the effect of deleting an edge visualized? Other effects? Directly in graph?
+- Task 3
+    - Use it not often: Click on it
+    - Use it often: Filter
+- Filter
+    - From-To filter is really necessary, reachability *many* requirements
+    - Need both: Filter for subnet, then click around in graph
+- Layers
+    - Add layers in graph? (OS stack layers) For zooming
+    - Do you want to structure it? 
+    - When you open it first, it is very messy
+- For them a diagram that has nothing to do with the live network makes no sense
+    - Important to connect it to current network
+    - Add monitoring information
+    - Colour links/routers with problems, so that they know where to look at --> Too much information, mails are lost
+    - Or measure routing table usage
+    - Network graph: Colour how strong it is used
+    - Configs should be pushed automatically on the devices --> Our tool should do that, otherwise errors when applying configs
