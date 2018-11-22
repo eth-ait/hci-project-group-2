@@ -47,6 +47,9 @@ Upload the document shared with the stakeholder to the "deliverables" folder and
 
 Optional: in this part you can also document the prototyping process: show different iterations, as well as failed ideas (Weeks 6-10)
 
+### Deliverables
+[Study Report](Deliverables/Study_Report.md) + Presentation (TODO)
+
 ## Final solution
     TODO
 Describe your final solution to the problem and the prototype you developed in more detail here.
