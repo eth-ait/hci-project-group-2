@@ -47,6 +47,12 @@ Upload the document shared with the stakeholder to the "deliverables" folder and
 
 Optional: in this part you can also document the prototyping process: show different iterations, as well as failed ideas (Weeks 6-10)
 
+### Paper prototype
+
+Here's a video of our paper prototype in action:  
+[![Paper prototype video screenshot](img/paper_prototype/youtube_video_screenshot.png)](https://www.youtube.com/watch?v=oLGozc_zjko)  
+([Direct download](video/paper_prototype.mp4))
+
 ### Deliverables
 [Study Report](Deliverables/Study_Report.md) + Presentation (TODO)
 
