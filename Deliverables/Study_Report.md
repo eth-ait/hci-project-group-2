@@ -171,7 +171,7 @@ The feedback shows that most of the information is properly highlighted. However
 
 ![Questions - Understandable visualization of information](/img/study_report/requirement_visualisation.png)
 
-The visualisations of the various requirements were understandable and supported the user in their tasks.
+The visualisations of the various requirements were understandable. One user commented that the visualisations were very useful to understand the requirements.
 
 ![Questions - Preferred way of searching requirements](/img/study_report/preferred_searching_method.png)
 
