@@ -26,7 +26,7 @@ Taking our study goals into account we created a digital prototype to meet our n
 We used Adobe XD to design our prototype. The environment of Adobe did not provide any measurement tools for the study but made it simpler to create a usable and distributable prototype. Since our UI will be highly interactive, it was only possible to simulate a limited subset of all possible interactions. Therefore our questions and tasks had to be very specific and straightforward.
 
 #### Questionnaire ([see here](https://docs.google.com/forms/d/e/1FAIpQLScezn4NKkqSJVn5ywilecgBPvZDxEXtcfHE85JA9YDOrbKo0A/viewform?usp=sf_link))
-Due to the limitations of our prototype we had to help our users to interact with the mockup. This lead us to questions which focus strongly on the essential parts of our prototype and therefore our study.
+Due to the limitations of our prototype we had to help our users to interact with the mock-up. This lead us to questions which focus strongly on the essential parts of our prototype and therefore our study.
 
 We then split our study into two parts that both used the same prototype and questions.
 
@@ -69,7 +69,142 @@ We want you to complete a small set of tasks in an easy mock-up version of our U
 The mock-up prototype is a very simple version of the UI we came up with and has very limited capabilities that should show-case what could be possible. Objects that cannot be interacted with are greyed out. Try to do the tasks in the specified order. If you get stuck in the UI doing a task use the 'Home' button to get to the initial state of the mock-up.
 
 ## Results
-`TODO`
+
+### In-person meeting
+
+In our meeting with the ETH network administrators on Friday 16.11. we received the following feedback:
+
+#### Very detail-focused feedback
+
+In general the feedback the network operators provided was rich in details, but it mainly targeted the features of NetComplete and not our UI. The network operators also requested many features, which lie outside the scope of both our UI and NetComplete. For example, they requested the network graph to dynamically show the status of all nodes and links.
+
+#### Difficulties with the mock-up
+
+Unfortunately the little UI feedback we received mostly focused on limitations of our mock-up. For example, they wanted to move around the network graph, but there was no way to implement such a feature in Adobe XD. Also they sometimes got confused when certain features worked in some places but not in others. That was the case because we implemented the functionality we needed to test our goals but they were more interested in freely exploring the mock-up than solving tasks.
+
+#### Virtual views vs physical networks
+
+In our UI we solely focused on the physical connections between machines. However, the ETH network operators mostly deal with virtual networks deployed on these physical machines and connections.
+
+#### Distance to high-level requirements
+
+The network operators weren’t used to the high-level requirements that NetComplete uses. From their practical point of view, they disagree with the definition of some of our requirements. For instance, they remarked that unequal cost load balancing would not be possible with OSPF.
+
+#### Current lack of automation
+
+In their current work flow the network operators configure every switch by hand. We had the impression that this makes it hard for them to have trust in a system such as NetComplete, since it takes automation one step further from deployment to configuration and is thus even more abstract.
+
+### Questionnaire
+
+#### Demographics
+
+The average age of our users was 27, with a standard deviation of 2.74. All of them were male. We don’t have the age of one participant, since that question was only added later.
+
+#### Requirement lookup tasks
+
+We asked the users to find a specific requirement in each of three different categories and to answer a short question about it. 
+
+![Results of Task 1.1 - Connectivity](/img/study_report/find_requirement_task_1_connectivity.png)
+
+Users were asked to find the “N-Connectivity” section and had to find a specific requirement and interpret it. The correct response was “3 paths”. All users chose the correct answer.
+
+![Results of Task 1.2 - Security](/img/study_report/find_requirement_task_2_security.png)
+
+Users were asked to look at a specific “Security” requirement and answer a comprehension question about it. The correct response was “router_17”. All users chose the correct answer.
+
+![Results of Task 1.3 - Load balancing](/img/study_report/find_requirement_task_3_load_balancing.png)
+
+Users were asked to find the “Load Balancing” section and had to find a specific requirement and interpret it. The correct response was “router_37 -> router_16”. All users chose the correct answer.
+
+Average perceived time for requirement lookups:
+![Task 1 - Average perceived lookup time](/img/study_report/find_requirement_avg_time.png)
+
+We also asked the users to estimate the time it took them to complete the task. We asked three very similar questions to cope with a potential learning effect (users may become faster when they get used to our UI). 
+
+We collected the perceived time in 15s time steps. The disadvantage of asking users for their opinion on how long it took them to answer a task is that this measurement is not very precise and may be biased. We used this method because it was not possible to arrange meetings with enough network specialists and measure the time ourselves. We think that this measurement is nonetheless helpful, because it still shows whether users feel they can solve a task quickly. 
+
+In the resulting graph we could not see a learning curve. It is possible that there is not much learning effect or it could be that our measurements were not precise enough to show the improvement. We also asked users if they think they got faster finding requirements. The results are displayed in the pie chart below (it has only eight answers, since we added this question later). Half of the users answered that they thought they got faster, so it could also be that we did not see the learning curve because of the coarse grained time measurement of 15s intervals.
+
+Overall the average stayed around 30 seconds, which means that all users perceived that they were quite fast to answer the question (from 15 seconds to 1.5 minutes, they chose the second lowest as their perceived time).
+
+![Task 1 - Learning effect](/img/study_report/find_requirement_learning_effect.png)
+
+#### What-if Analysis using the bulldozer tool
+
+![Task 2 - What-if analysis results](/img/study_report/what-if_answer.png)
+
+The user was asked to use the bulldozer tool to destroy an edge in the graph and look for the implication of this action. There was an indicator light in the requirement group where one was violated. The user had to find the violated requirement, which was “Reachability from router_13 to router_37”. All users were able to complete the task and gave the right answer.
+
+![Task 2 - What-if analysis difficulty](/img/study_report/what-if_difficulty.png)
+
+The users thought the bulldozer tool was not very hard to use. From the comments we learned that the activation of the bulldozer tool and its use needs to be explained better. A suggestion was to change the cursor to another symbol and maybe give a better tutorial so that the use of the tool is clearer. Someone also mentioned that the cut edge was not highlighted clearly enough.
+
+![Questions - Usefulness of what-if analysis](/img/study_report/what-if_bulldozer_effect.png)
+
+The majority of the users were convinced of the usability of the tool but there were also users who thought the cut edges need to be better highlighted but liked the immediate changes in the requirements list to the left (the checkmark changes to a cross) if a requirement failed because of the cut edge.
+
+#### Comparing filter textboxes with radial menus
+
+![Task 3 - Comparison between radial menu and filter textboxes](/img/study_report/filter_vs_radial_menu.png)
+
+The majority of our testers preferred the radial menu (4 - 6) over the classic filter box (1 - 3) to do a simple lookup task.
+
+#### General questions
+
+In the following graphs one stands for “strongly disagree” and five for “strongly agree”.
+
+![Questions - Amount of information displayed](/img/study_report/information_amount.png)
+
+User feedback suggests that the screen was sufficiently simple and clear.
+
+![Questions - Difficulty of navigation through requirements](/img/study_report/requirement_navigation.png)
+
+The users thought the UI was easy to navigate through. The participant who gave a score of 1 explained in the comments field that he was frustrated by the limitations of the mock-up.
+
+![Questions - Difficulty of tasks](/img/study_report/tasks_easy.png)
+
+This feedback implies that the UI helped our users complete their tasks.
+
+![Questions - Prioritization of important information](/img/study_report/information_highlight_and_prio.png)
+
+The feedback shows that most of the information is properly highlighted. However, there is still room for improvement.
+
+![Questions - Understandable visualization of information](/img/study_report/requirement_visualisation.png)
+
+The visualisations of the various requirements were understandable and supported the user in their tasks.
+
+![Questions - Preferred way of searching requirements](/img/study_report/preferred_searching_method.png)
+
+The majority of our testers preferred the radial menu as a tool to accomplish their tasks. Some users additionally liked other filtering methods, too. User comments suggested that we should keep both filter variants because they complement each other (for larger graphs you might want to filter first, for smaller the radial menu is faster).
+
+We would like to mention that it is possible that the filtering textboxes performed worse because of our prototype design. It was not possible to model that users can actually type themselves into these textboxes, so we provided suggestions that they could select. However, this artificially limits the user and has a very different user experience.
+
+#### Further comments:
+
+The radial menu was appreciated as well as the split design of the requirements list on the left and the graph on the right. The visualisation of the requirements were also positively received.
+
+It was mentioned that the mock-up tool is annoying because it heavily limits actions.
 
 ## Implications
-`TODO`
+
+We will have to discuss with Dr. Tsankov whether and to what extent our UI should implement virtual networks, or more generally, to which level of detail we should display the network configuration. Furthermore, there are lots of small technical details, that we should clear up with Dr. Tsankov. For example, what is the relevant data that needs to be displayed when hovering over a node. Or that they wished to see real time sensor data of the network. However, we think our project doesn’t focus on creating a general purpose network monitoring tool. 
+
+What’s more, there were many conflicts between what NetComplete provides and what a real user appears to need. The network operators communicated that they would prefer a more dynamic UI that also shows node and link failures and can apply real time configuration changes. We think that NetComplete was designed for a different use case, but due to a lack of expert knowledge on our part, it doesn’t make much sense if we act as intermediaries between network operators and the NetComplete team. Rather, we will forward this feedback to our stakeholder, so that the NetComplete team can get in contact with their potential users directly.
+
+### Getting back to our study goals
+
+#### How fast and how accurately can a new user verify a requirement in the network?
+
+Our users were able to accurately identify the network requirements. Also they perceived themself to be reasonably fast. It seems that our current prototype achieves this goal.
+
+#### How easily and reliably can a new user perform a "what-if" analysis?
+
+In the in-person interviews we received the feedback that it is unclear what the function of the bulldozer tool is. To improve this, we should either find a more intuitive icon or use a tutorial. 
+
+For the online questionnaire we used a quick tutorial and guided the users so that they don’t get stuck while performing a task. That is why we didn’t receive much feedback in this direction from the online responses. The users there were normally able to easily and reliably use our bulldozer tool to do a “what-if” analysis. This implies that with a little introduction, user approve of our general design of a “what-if” analysis and can perform it without problems.
+
+We could improve the design of the bulldozer tool to make it more obvious that it is active. Also we should consider marking the cutted edges clearer.
+
+#### Compare two methods to filter requirements
+
+The users seemed to really like the radial menu so we should definitely focus on this input method in our UI. During our in-person interview, one valuable comment was that the radial menu likely works better in small network graphs, whereas filtering is essential for larger graph. Therefore it makes sense to keep both options available.
