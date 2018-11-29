@@ -177,7 +177,7 @@ The visualisations of the various requirements were understandable and supported
 
 The majority of our testers preferred the radial menu as a tool to accomplish their tasks. Some users additionally liked other filtering methods, too. User comments suggested that we should keep both filter variants because they complement each other (for larger graphs you might want to filter first, for smaller the radial menu is faster).
 
-We would like to mention that it is possible that the filtering textboxes performed worse because of our prototype design. It was not possible to model that users can actually type themselves into these textboxes, so we provided suggestions that they could select. However, this artificially limits the user and has a very different user experience.
+We would like to mention that it is possible that the filtering textboxes performed worse because of our prototype design.In our mock-up tool, users were not able to type into the textboxes themselves. Instead, we had to provide a list of suggestions that they could choose from. However, this artificially limits the user and creates a very different user experience.
 
 #### Further comments:
 
