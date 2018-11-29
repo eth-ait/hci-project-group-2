@@ -41,11 +41,6 @@ We were asked by our stakeholder to derive the properties which we should later 
 [Programmable networks: 3 ideas PPT presentation](Deliverables/Idea_Presentation.pptx) [(pdf)](Deliverables/Idea_Presentation.pdf)
 
 ## Evaluation
-    TODO
-Describe your approach for evaluating your low-fi prototypes, present your results and your conclusion. 
-Upload the document shared with the stakeholder to the "deliverables" folder and include the link here.
-
-Optional: in this part you can also document the prototyping process: show different iterations, as well as failed ideas (Weeks 6-10)
 
 ### Paper prototype
 
@@ -54,7 +49,7 @@ Here's a video of our paper prototype in action:
 ([Direct download](video/paper_prototype.mp4))
 
 ### Deliverables
-[Study Report](Deliverables/Study_Report.md) + Presentation (TODO)
+[Study Report](Deliverables/Study_Report.md)
 
 ## Final solution
     TODO
