@@ -104,15 +104,15 @@ The average age of our users was 27, with a standard deviation of 2.74. All of t
 
 We asked the users to find a specific requirement in each of three different categories and to answer a short question about it. 
 
-![Results of Task 1.1 - Connectivity](/img/study_report/find_requirement_task_1_connectivity_small.png)
+[![Results of Task 1.1 - Connectivity](/img/study_report/find_requirement_task_1_connectivity_small.png)](/img/study_report/find_requirement_task_1_connectivity.png)
 
 Users were asked to find the “N-Connectivity” section and had to find a specific requirement and interpret it. The correct response was “3 paths”. All users chose the correct answer.
 
-![Results of Task 1.2 - Security](/img/study_report/find_requirement_task_2_security_small.png)
+[![Results of Task 1.2 - Security](/img/study_report/find_requirement_task_2_security_small.png)](/img/study_report/find_requirement_task_2_security.png)
 
 Users were asked to look at a specific “Security” requirement and answer a comprehension question about it. The correct response was “router_17”. All users chose the correct answer.
 
-![Results of Task 1.3 - Load balancing](/img/study_report/find_requirement_task_3_load_balancing_small.png)
+[![Results of Task 1.3 - Load balancing](/img/study_report/find_requirement_task_3_load_balancing_small.png)](/img/study_report/find_requirement_task_3_load_balancing.png)
 
 Users were asked to find the “Load Balancing” section and had to find a specific requirement and interpret it. The correct response was “router_37 -> router_16”. All users chose the correct answer.
 
@@ -127,25 +127,25 @@ In the resulting graph we could not see a learning curve. It is possible that th
 
 Overall the average stayed around 30 seconds, which means that all users perceived that they were quite fast to answer the question (from 15 seconds to 1.5 minutes, they chose the second lowest as their perceived time).
 
-![Task 1 - Learning effect](/img/study_report/find_requirement_learning_effect_small.png)
+[![Task 1 - Learning effect](/img/study_report/find_requirement_learning_effect_small.png)](/img/study_report/find_requirement_learning_effect.png)
 
 #### What-if Analysis using the bulldozer tool
 
-![Task 2 - What-if analysis results](/img/study_report/what-if_answer_small.png)
+[![Task 2 - What-if analysis results](/img/study_report/what-if_answer_small.png)](/img/study_report/what-if_answer.png)
 
 The user was asked to use the bulldozer tool to destroy an edge in the graph and look for the implication of this action. There was an indicator light in the requirement group where one was violated. The user had to find the violated requirement, which was “Reachability from router_13 to router_37”. All users were able to complete the task and gave the right answer.
 
-![Task 2 - What-if analysis difficulty](/img/study_report/what-if_difficulty_small.png)
+[![Task 2 - What-if analysis difficulty](/img/study_report/what-if_difficulty_small.png)](/img/study_report/what-if_difficulty.png)
 
 The users thought the bulldozer tool was not very hard to use. From the comments we learned that the activation of the bulldozer tool and its use needs to be explained better. A suggestion was to change the cursor to another symbol and maybe give a better tutorial so that the use of the tool is clearer. Someone also mentioned that the cut edge was not highlighted clearly enough.
 
-![Questions - Usefulness of what-if analysis](/img/study_report/what-if_bulldozer_effect_small.png)
+[![Questions - Usefulness of what-if analysis](/img/study_report/what-if_bulldozer_effect_small.png)](/img/study_report/what-if_bulldozer_effect.png)
 
 The majority of the users were convinced of the usability of the tool but there were also users who thought the cut edges need to be better highlighted but liked the immediate changes in the requirements list to the left (the checkmark changes to a cross) if a requirement failed because of the cut edge.
 
 #### Comparing filter textboxes with radial menus
 
-![Task 3 - Comparison between radial menu and filter textboxes](/img/study_report/filter_vs_radial_menu_small.png)
+[![Task 3 - Comparison between radial menu and filter textboxes](/img/study_report/filter_vs_radial_menu_small.png)](/img/study_report/filter_vs_radial_menu.png)
 
 The majority of our testers preferred the radial menu (4 - 6) over the classic filter box (1 - 3) to do a simple lookup task.
 
@@ -153,27 +153,27 @@ The majority of our testers preferred the radial menu (4 - 6) over the classic f
 
 In the following graphs one stands for “strongly disagree” and five for “strongly agree”.
 
-![Questions - Amount of information displayed](/img/study_report/information_amount_small.png)
+[![Questions - Amount of information displayed](/img/study_report/information_amount_small.png)](/img/study_report/information_amount.png)
 
 User feedback suggests that the screen was sufficiently simple and clear.
 
-![Questions - Difficulty of navigation through requirements](/img/study_report/requirement_navigation_small.png)
+[![Questions - Difficulty of navigation through requirements](/img/study_report/requirement_navigation_small.png)](/img/study_report/requirement_navigation.png)
 
 The users thought the UI was easy to navigate through. The participant who gave a score of 1 explained in the comments field that he was frustrated by the limitations of the mock-up.
 
-![Questions - Difficulty of tasks](/img/study_report/tasks_easy_small.png)
+[![Questions - Difficulty of tasks](/img/study_report/tasks_easy_small.png)](/img/study_report/tasks_easy.png)
 
 This feedback implies that the UI helped our users complete their tasks.
 
-![Questions - Prioritization of important information](/img/study_report/information_highlight_and_prio_small.png)
+[![Questions - Prioritization of important information](/img/study_report/information_highlight_and_prio_small.png)](/img/study_report/information_highlight_and_prio.png)
 
 The feedback shows that most of the information is properly highlighted. However, there is still room for improvement.
 
-![Questions - Understandable visualization of information](/img/study_report/requirement_visualisation_small.png)
+[![Questions - Understandable visualization of information](/img/study_report/requirement_visualisation_small.png)](/img/study_report/requirement_visualisation.png)
 
 The visualisations of the various requirements were understandable. One user commented that the visualisations were very useful to understand the requirements.
 
-![Questions - Preferred way of searching requirements](/img/study_report/preferred_searching_method_small.png)
+[![Questions - Preferred way of searching requirements](/img/study_report/preferred_searching_method_small.png)](/img/study_report/preferred_searching_method.png)
 
 The majority of our testers preferred the radial menu as a tool to accomplish their tasks. Some users additionally liked other filtering methods, too. User comments suggested that we should keep both filter variants because they complement each other (for larger graphs you might want to filter first, for smaller the radial menu is faster).
 
