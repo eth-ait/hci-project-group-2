@@ -52,19 +52,26 @@ Here's a video of our paper prototype in action:
 [Study Report](Deliverables/Study_Report.md)
 
 ## Final solution
+Since our paper prototype, we did two iterations. One from the paper prototype to the clickable mockup (which we used for our study) and another for the video prototype. The changes are described [here](resources/video_prototype/iterative_changes.md).
+
+    TODO
+
+Describe your final solution to the problem and the prototype you developed in more detail here.
+
+### Video prototype
 The general idea of our video was to show two scenarios. In both we first motivate our solution by showing the problem it solves. Then in the second part of each scenario we show how this action looks in our prototype specifically.
 
 Here is the storyboard for the first scenario:
 
-<img src="resources/video_prototype/storyBoardScene2/Scene2Part1.jpg" alt="Scenario 1a" style="transform: rotate(90deg);" width="70%">
+![Scenario 1a](resources/video_prototype/storyBoardScene2/Scene2Part1.jpg)
 
-<img src="resources/video_prototype/storyBoardScene2/Scene2Part2.jpg" alt="Scenario 1b" style="transform: rotate(90deg);" width="70%">
+![Scenario 1b](resources/video_prototype/storyBoardScene2/Scene2Part2.jpg)
 
 And here is the storyboard of the second scenario:
 ![Scenario 2](resources/video_prototype/storyboard_programmable_networks/exports/storyboard_programmable_networks%202018-12-07%2004.57.08.gif)
 
     TODO
-Describe your final solution to the problem and the prototype you developed in more detail here.
+
 Upload your video to the "deliverables" folder and include the link here.
 
 (Weeks 10-14)
