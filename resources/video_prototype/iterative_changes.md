@@ -24,5 +24,5 @@ The selection icon was replaced by the lasso icon, while we removed the hand ico
 ## Adding a border to the graph during a what-if analysis
 When we showed the mock-up to the ETH network administrators, it became clear that we needed a clear visual indicator for when the network graph contained simulated node or link failures. Before the questionnaire was sent out, we fixed this by adding a red border around the network graph and displaying the text “‘What-if’ analysis”. For the video, we made the border blue and changed the text to “Simulation”, because that just looked much better.
 
-Splitting the “Security” category into “Waypointing” and “Blocking”
+## Splitting the “Security” category into “Waypointing” and “Blocking”
 Our paper prototype and mock-up used the term “Security requirement” for requirements that prevent traffic from flowing through some node, and for those that force traffic to flow through some nodes. This made the UI harder to use, as the term “security” doesn’t directly imply what those requirements actually do. Therefore, we decided to split this category into “blocking requirements” and “waypointing requirements”.
