@@ -70,8 +70,4 @@ Here is the storyboard for the first scenario:
 And here is the storyboard of the second scenario:
 ![Scenario 2](resources/video_prototype/storyboard_programmable_networks/exports/storyboard_programmable_networks%202018-12-07%2004.57.08.gif)
 
-    TODO
-
-Upload your video to the "deliverables" folder and include the link here.
-
-(Weeks 10-14)
+**The final video prototype is [here](Deliverables/Programmable_Networks_video_prototype.mp4).**
