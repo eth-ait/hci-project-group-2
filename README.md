@@ -52,14 +52,12 @@ Here's a video of our paper prototype in action:
 [Study Report](Deliverables/Study_Report.md)
 
 ## Final solution
-Since our paper prototype, we did two iterations. One from the paper prototype to the clickable mockup (which we used for our study) and another for the video prototype. The changes are described [here](resources/video_prototype/iterative_changes.md).
+Since our paper prototype, we did two more iterations on the UI. One from the paper prototype to the clickable mockup (which we used for our study) and another for the video prototype. The changes are described [in this document](resources/video_prototype/iterative_changes.md).
 
-    TODO
-
-Describe your final solution to the problem and the prototype you developed in more detail here.
-
-### Video prototype
+### Video showcasing our prototype
 The general idea of our video was to show two scenarios. In both we first motivate our solution by showing the problem it solves. Then in the second part of each scenario we show how this action looks in our prototype specifically.
+
+#### Storyboards
 
 Here is the storyboard for the first scenario:
 
@@ -70,4 +68,7 @@ Here is the storyboard for the first scenario:
 And here is the storyboard of the second scenario:
 ![Scenario 2](resources/video_prototype/storyboard_programmable_networks/exports/storyboard_programmable_networks%202018-12-07%2004.57.08.gif)
 
-**The final video prototype is [here](Deliverables/Programmable_Networks_video_prototype.mp4).**
+#### Final submission
+
+![Prototype video on YouTube](resources/video_prototype/youtube_video_screenshot.png)
+(**[Direct download of the video showcasing our prototype](Deliverables/Programmable_Networks_video_prototype.mp4)**)
