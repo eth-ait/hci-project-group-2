@@ -70,5 +70,5 @@ And here is the storyboard of the second scenario:
 
 #### Final submission
 
-![Prototype video on YouTube](resources/video_prototype/youtube_video_screenshot.png)
+[![Prototype video on YouTube](resources/video_prototype/youtube_video_screenshot.png)](https://youtu.be/KpDrgwP3DMs)
 (**[Direct download of the video showcasing our prototype](Deliverables/Programmable_Networks_video_prototype.mp4)**)
